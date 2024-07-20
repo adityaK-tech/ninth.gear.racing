@@ -1,4 +1,55 @@
-.body{
-
+body{
     background-color: #121212;
+    overflow-x: hidden;
+}
+
+.text{
+    font-family: 'myFont';
+    color: white;
+}
+
+.main-title{
+
+    font-size: 5vw;
+    position: relative;
+    top: -20vw;
+    left: 4vw;
+}
+
+
+.sub-title{
+    position: relative;
+    top: -20vw;
+    left: 4vw;
+
+
+}
+
+@font-face {
+    font-family: 'myFont';
+    src: url('pnf.otf');
+
+}
+
+.navbar{
+    float: right;
+    font-size: 30px;
+    position: relative;
+    top: 10px;
+}
+
+.menu{
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.mainlogo{
+
+    height: 30vw;
+    width: auto;
+    position: relative;
+    right:-1000px;
+    top: 50px;
 }
