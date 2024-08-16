@@ -1,6 +1,7 @@
 body{
     background-color: #121212;
     overflow-x: hidden;
+
 }
 
 .text{
@@ -13,14 +14,14 @@ body{
     font-size: 5vw;
     position: relative;
     top: -20vw;
-    left: 4vw;
+    left: 40px;
 }
 
 
 .sub-title{
     position: relative;
     top: -20vw;
-    left: 4vw;
+    left: 40px;
 
 
 }
@@ -52,4 +53,77 @@ body{
     position: relative;
     right:-1000px;
     top: 50px;
+}
+
+.subtitlepages{
+
+    font-size: 5vw;
+    position: relative;
+    top: 0vw;
+    left: 40px;
+
+}
+
+.page-div{
+
+    width: 85vw;
+}
+
+.page-div-two{
+
+    width: 85vw;
+    position: relative;
+    top: -400px;
+}
+
+.pagecontent{
+
+
+}
+
+.submini{
+    float: left;
+    position: relative;
+    top: -0vw;
+    left: 40px;
+    color: white;
+    font-size: 3vw;
+
+}
+
+
+p{
+    font-family: 'myFont';
+    color: white;
+
+    position: relative;
+    top: -0vw;
+    left: 40px;
+
+    font-size: 1.5vw;
+    
+
+}
+
+.endingText{
+
+    font-size: 1vw;
+}
+.firstbody{
+    line-height: 40px;
+}
+.secondbody{
+    line-height: 40px;
+    position: relative;
+    float: right;
+    padding-right: 20px;
+
+}
+
+.movetotheside{
+    position: relative;
+    float: right;
+    bottom: -110px;
+    right: 100px;
+    border-radius: 25px;
 }
